@@ -1,0 +1,4 @@
+.divided{
+    display: grid;
+    grid-template-columns: 2.8fr 1.3fr;
+}
