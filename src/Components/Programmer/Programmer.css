@@ -5,3 +5,9 @@
 .cursor-pointer{
     cursor: pointer;
 }
+.bg-card-header{
+    background-color: rgb(191, 239, 255);
+}
+.bg-card-body{
+    background-color: lightcyan;
+}

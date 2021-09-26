@@ -1,0 +1,10 @@
+.bg-selected-card{
+    background-color: rgb(207, 255, 211);
+}
+.bg-selecte-card-header{
+    margin: 30px 10px;
+    background-color: rgb(255, 202, 210);
+}
+.programmers-added{
+    border-bottom: 2px solid rgb(163, 178, 255);
+}

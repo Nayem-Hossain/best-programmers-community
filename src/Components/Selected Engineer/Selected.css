@@ -1,4 +1,6 @@
-.imgCut{
-    width: 100%;
+.imgcut{
     height: 100%;
+}
+.bg-selected-programmer-card{
+    background-color: lightcyan;
 }

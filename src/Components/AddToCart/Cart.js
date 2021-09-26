@@ -12,22 +12,20 @@ const Cart = (Props) => {
   }
   return (
     <div>
-      <div className="mt-5 card h-100">
-        <h2 className="mt-4">
-          <i class="fas fa-user"></i> Programmers Added : {Props.cart.length}
-        </h2>
-        <h2 className="mb-5">
-          Total Cost (<i class="fas fa-dollar-sign"></i>) : {total}
-        </h2>
+      <div className="mt-5 card h-100 bg-selected-card">
+        <div className='p-4 bg-selecte-card-header'>
+          <h2 className="mt-4 programmers-added">
+            <i class="fas fa-user"></i><span className="fw-bold">Programmers Added : </span>{Props.cart.length}
+          </h2>
+          <h2 className="mb-5 programmers-added">
+          <span className="fw-bold">Total Cost </span>(<i class="fas fa-dollar-sign"></i>) : {total}
+          </h2>
+        </div>
         <div>
           {cart.map((selectData) => (
-            <Selected data={selectData}
-            key={selectData.key}
-            >
-            </Selected>
-              
+            <Selected data={selectData} key={selectData.key}></Selected>
           ))}
-        <button className='btn btn-primary w-100'>Selected Cofirm</button>
+          <button className="btn btn-primary w-100">Selected Cofirm</button>
         </div>
       </div>
     </div>
